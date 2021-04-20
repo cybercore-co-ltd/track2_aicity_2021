@@ -1,12 +1,14 @@
-# STRONG BASELINE FOR VEHICLE RE-IDENTIFICATION
+# A STRONG BASELINE FOR VEHICLE RE-IDENTIFICATION
 ![](./images/framework.png)
-This repo is developed for Strong Baseline For Vehicle Re-Identification in [Track 2 Ai-City-2021 Challenges](https://www.aicitychallenge.org/). It inherits from [AICity2020-VOC-ReID.](https://github.com/Xiangyu-CAS/AICity2020-VOC-ReID)
+This repo is developed for **A Strong Baseline For Vehicle Re-Identification** in [Track 2 Ai-City-2021 Challenges](https://www.aicitychallenge.org/). It inherits from [AICity2020-VOC-ReID.](https://github.com/Xiangyu-CAS/AICity2020-VOC-ReID)
 
 ## I.INTRODUCTION
 Our proposed method sheds light on three main factors that contribute most to the performance, including:
 + Minizing the gap between real and synthetic data
 + Network modification by stacking multi heads with attention mechanism to backbone
 + Adaptive loss weight adjustment.
+
+Our method achieves 61.34% mAP on the private CityFlow testset without using external dataset or pseudo labeling, and outperforms all previous works at 87.1% mAP on the [Veri](https://vehiclereid.github.io/VeRi/) benchmark.
 
 ## II. INSTALLATION
 1. pytorch>=1.2.0
@@ -51,3 +53,7 @@ Download the pretrained checkpoint [resnext101_ibn](https://drive.google.com/fil
 + Download the [checkpoint](https://drive.google.com/file/d/1iOwk054Fs2pbqnOTQ0UJSv7Yhhk7IRun/view?usp=sharing)
 
 ![](images/veri.png)
+
+## V. ILLUSTRATED PICTURES
+
+![](images/illustrated.png)
