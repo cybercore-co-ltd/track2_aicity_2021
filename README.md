@@ -1,5 +1,5 @@
 # A STRONG BASELINE FOR VEHICLE RE-IDENTIFICATION
-**Paper accepted to the IEEE Conference on Computer Vision and Pattern Recognition Workshop(CVPRW) 2021**
+**Paper is accepted to the IEEE Conference on Computer Vision and Pattern Recognition Workshop(CVPRW) 2021**
 
 ![](./images/framework.png)
 ![](images/illustrated.png)
