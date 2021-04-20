@@ -1,6 +1,11 @@
 # A STRONG BASELINE FOR VEHICLE RE-IDENTIFICATION
+**Paper accepted to the IEEE Conference on Computer Vision and Pattern Recognition Workshop(CVPRW) 2021**
+
 ![](./images/framework.png)
-This repo is developed for **A Strong Baseline For Vehicle Re-Identification** in [Track 2 Ai-City-2021 Challenges](https://www.aicitychallenge.org/). It inherits from [AICity2020-VOC-ReID.](https://github.com/Xiangyu-CAS/AICity2020-VOC-ReID)
+![](images/illustrated.png)
+
+This repo is the official implementation for paper [**A Strong Baseline For Vehicle Re-Identification**](./images/paper.pdf) in [Track 2, 2021 AI CITY CHALLENGE](https://www.aicitychallenge.org/).
+
 
 ## I.INTRODUCTION
 Our proposed method sheds light on three main factors that contribute most to the performance, including:
@@ -54,6 +59,5 @@ Download the pretrained checkpoint [resnext101_ibn](https://drive.google.com/fil
 
 ![](images/veri.png)
 
-## V. ILLUSTRATED PICTURES
 
-![](images/illustrated.png)
+
