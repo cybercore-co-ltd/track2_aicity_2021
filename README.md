@@ -1,10 +1,10 @@
 # A STRONG BASELINE FOR VEHICLE RE-IDENTIFICATION
-**Paper is accepted to the IEEE Conference on Computer Vision and Pattern Recognition Workshop(CVPRW) 2021**
+**This paper is accepted to the IEEE Conference on Computer Vision and Pattern Recognition Workshop(CVPRW) 2021**
 
 ![](./images/framework.png)
 ![](images/illustrated.png)
 
-This repo is the official implementation for paper [**A Strong Baseline For Vehicle Re-Identification**](./images/paper.pdf) in [Track 2, 2021 AI CITY CHALLENGE](https://www.aicitychallenge.org/).
+This repo is the official implementation for the paper [**A Strong Baseline For Vehicle Re-Identification**](./images/paper.pdf) in [Track 2, 2021 AI CITY CHALLENGE](https://www.aicitychallenge.org/).
 
 
 ## I.INTRODUCTION
