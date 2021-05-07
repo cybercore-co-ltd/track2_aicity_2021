@@ -27,11 +27,20 @@ $ pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--c
 4. python>=3.7
 5. cv2
 ## III. REPRODUCE THE RESULT ON AICITY 2020 CHALLENGE
-Download the Imagenet pretrained checkpoint [resnext101_ibn](https://drive.google.com/file/d/197nnkY9fZpiE-96B31V59DB-2rm-ZxbG/view?usp=sharing), [resnext50_ibn]()
+Download the Imagenet pretrained checkpoint [resnext101_ibn](https://drive.google.com/file/d/197nnkY9fZpiE-96B31V59DB-2rm-ZxbG/view?usp=sharing), [resnet50_ibn](http://118.69.233.170:8000/AICity/Imagenet_pretrained/resnet50_ibn_a.pth.tar), [resnet152](http://118.69.233.170:8000/AICity/Imagenet_pretrained/resnet152-b121ed2d.pth)
 
 ### 1.Train
 
++ **Prepare training data**
+  - Convert the original synthetic images into more realistic one, using [Unit](https://github.com/mingyuliutw/UNIT) repository
+![](images/image_translation.png) 
+
+  - Using Mask-RCNN (pre-train on COCO) to extract foreground (car) and background, then we swap the foreground and background between training images.
+![](images/change_background.png) 
+
+
 + **Vehicle ReID**
+Train multiple models using 3 different backbones: ResNext101_ibn, Resnet50_ibn, Resnet152 
 ```bash
     ./scripts/train.sh
 ```
