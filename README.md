@@ -27,7 +27,7 @@ $ pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--c
 4. python>=3.7
 5. cv2
 ## III. REPRODUCE THE RESULT ON AICITY 2020 CHALLENGE
-Download the pretrained checkpoint [resnext101_ibn](https://drive.google.com/file/d/197nnkY9fZpiE-96B31V59DB-2rm-ZxbG/view?usp=sharing)
+Download the Imagenet pretrained checkpoint [resnext101_ibn](https://drive.google.com/file/d/197nnkY9fZpiE-96B31V59DB-2rm-ZxbG/view?usp=sharing), [resnext50_ibn]()
 
 ### 1.Train
 
